@@ -1,6 +1,6 @@
 from typing import List, Dict, Any
 from pathlib import Path
-from langchain_community.document_loaders import DirectoryLoader, TextLoader, PyPDFLoader, UnstructuredPDFLoader
+from langchain_community.document_loaders import DirectoryLoader, PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import logging
 
